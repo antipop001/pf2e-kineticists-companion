@@ -1,3 +1,7 @@
+## 2.1.2 - 2026-05-12 (Pathfinder 2e 7.12.1)
+- Fix Thermal Nimbus damage roll crash on PF2e v7.12.1 by updating the inline damage formula to use `@actor.flags.system` and adding null-safety to `rollInlineDamage` (upstream PR #31).
+- Bump Foundry compatibility `verified` to v14.
+
 ## 2.1.1 - 2025-08-05 (Pathfinder 2e 7.3.1)
 - Make armor impulses' armor size match the actor size.
 
